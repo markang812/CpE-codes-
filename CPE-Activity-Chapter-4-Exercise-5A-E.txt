@@ -1,0 +1,150 @@
+#include <iostream>
+#include <string>
+#include <ios>
+
+using namespace std;
+
+int main()
+{
+// Program A
+
+
+ int i = 0;
+ int c = 0;
+ int Length_Auction;
+ int Minimum_Bid;
+ int Maximum_Bid;
+ int ID;
+ int Array1[20];
+ string Array2[20];
+ string Item_Description;
+ int Array3[20];
+ int Array4[20];
+ /*
+ cout << "Enter ID Number" <<endl;
+ cin >> ID;
+ cout << "Enter Item Description" <<endl;
+ cin >> Item_Description;
+ cout << "Enter Auction Length" << endl;
+ cin >> Length_Auction;
+ cout << "Enter Minimum Bid" <<endl;
+ cin >> Minimum_Bid;
+   if(Minimum_Bid >100){
+    cout << "ID: " <<endl;
+    cout << ID_Number <<endl;
+    cout << "Description: " <<endl;
+    cout << Item_Description <<endl;
+    cout << "Days of Auction: " <<endl;
+    cout << Length_Auction <<endl;
+    cout << "Minimum Bid: " <<endl;
+    cout << Minimum_Bid <<endl;
+   }
+   return 0;
+   */
+
+//Program B
+/*
+ do{
+   cout<< "Enter ID: ";
+   cin >> ID;
+   if(ID != 0){
+   Array1[i] = ID;
+   cout<< "Enter Description: ";
+   cin >> Item_Description;
+   Array2[i] = Item_Description;
+   cout<< "Enter Auction Days: ";
+   cin >> Length_Auction;
+   Array3[i] = Length_Auction;
+   cout<< "Enter Minimum Bid: ";
+   cin >> Minimum_Bid;
+   Array4[i] = Minimum_Bid;
+   cout <<endl;
+   }
+   i++;
+   c++;
+ }while(ID != 0);
+ cout << endl;
+
+ for(i=0; i < c; i++){
+ if(Array4[i] > 100){
+    cout << "Item ID: " <<Array1[i] <<endl;
+    cout << "Description: "<<Array2[i]<<endl;
+    cout << "Auction Days: "<<Array3[i]<<endl;
+    cout << "Bid: "<<Array4[i]<<endl;
+ }
+ }
+ return 0;
+*/
+// program C
+/*
+cout << "Enter the ID: ";
+ cin >> ID;
+while(ID != 0) {
+    Array1[i] = ID;
+    cout <<"Enter description:";
+    cin >>Item_Description;
+    Array2[i] = Item_Description;
+    Array2[i];
+    i++;
+    c++;
+    cout << "Enter ID: ";
+    cin >> ID;
+}
+cout << endl;
+for(i = 0; i < c; i++){
+    cout << "ID: " << Array1[i];
+    cout << "Item Description" << Array2[i];
+    cout << "Length of Auction is Two Days" << endl;
+    cout << "Minimum Bid is \u0024" << "0" <<endl;
+}
+cout << endl;
+return 0;
+*/
+/*
+//Program D
+cout << "Enter ID"
+cin >> ID;
+  while(ID != 0){
+    cout << "Enter a Description";
+    cin >> Item_Description;
+    cout << "Length of Auction is: "
+    cin >> Length_Auction;
+    cout <<"Enter bid: $";
+    cin >> bid;
+    if (days >== 8 && days <= 20){
+        cout <<"Enter bid: $";
+        cout <<"Enter bid: $";
+        cout <<"Enter bid: $";
+        cout <<"Enter bid: $";
+    }
+    cout << "Enter ID:"
+    cin >> ID;
+  }
+  */
+ // Program E
+ cout << "Enter a maximum bid:";
+ cin >> Maximum_Bid;
+
+ cout << "Enter ID: ";
+ cin >> ID;
+
+ while(ID != 0){
+    cout << "Enter Description: ";
+    cin >> Item_Description;
+    cout << "Enter Length of Auction: ";
+    cin >> Length_Auction;
+    cout << "Enter Your Bid: ";
+    cin >> Minimum_Bid;
+    if (Minimum_Bid <= Maximum_Bid) {
+        cout <<"ID:" << id <<endl;
+        cout << Item_Description <<endl;
+        cout <<"Length of Auction: $" << Length_Auction << endl;
+        cout <<"Bid: $" << Minimum_Bid << endl;
+    }
+    cout << "Enter ID: ";
+    cin >> ID;
+ }
+}
+
+
+
